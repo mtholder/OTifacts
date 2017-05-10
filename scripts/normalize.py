@@ -29,6 +29,15 @@ def normalize_bibtex(fp):
     writer = BibTexWriter()
     with codecs.open(fp, 'w', encoding='utf-8') as out:
         out.write(writer.write(sdb))
+    #finally we obliterate fields related to when we wrote this record
+    with codecs.open(fp, 'rU', encoding='utf-8') as inp:
+        lines = inp.readlines()
+    with codecs.open(fp, 'w', encoding='utf-8') as out:
+        for line in lines:
+            ls = line.strip()
+            if ls.startswith('owner =') or ls.startswith('timestamp ='):
+                continue
+            out.write(line)
     return d
 
 
