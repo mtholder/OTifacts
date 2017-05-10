@@ -1,126 +1,135 @@
 {
-  "otsynth": {
+  "opentree": {
     "references": [
       "HinchliffEtAl2015",
       "RedelingsH2017"
     ],
     "resource_type": "open tree synthetic tree"
   },
-  "otsynthv1": {
+  "opentree1": {
     "date": "2014-04-14T00Z",
     "doc_url": "https://tree.opentreeoflife.org/about/synthesis-release/v1",
-    "inherits_from": "otsynth",
+    "inherits_from": "opentree",
     "ott_version": "ott2.6",
+    "schema": "newick",
     "stats": {
       "tip_count": null,
       "total_otu_count": null,
       "tree_count": null
     },
-    "url": "https://tree.opentreeoflife.org/synthesis/opentreev1/opentreev1_tree.tgz",
-    "version": "v1"
+    "syntax": "tar+gz",
+    "url": "https://files.opentreeoflife.org/synthesis/opentree1/opentree1.tre.gz",
+    "version": "1"
   },
-  "otsynthv2": {
+  "opentree2": {
     "date": "2014-09-14T00Z",
     "doc_url": "https://tree.opentreeoflife.org/about/synthesis-release/v2",
-    "inherits_from": "otsynth",
+    "inherits_from": "opentree",
     "ott_version": "ott2.8draft5",
+    "schema": "newick",
     "stats": {
       "tip_count": 2339516,
       "total_otu_count": null,
       "tree_count": 484
     },
-    "url": "https://tree.opentreeoflife.org/synthesis/opentreev2/opentreev2_tree.tgz",
-    "version": "v2"
+    "syntax": "tar+gz",
+    "url": "https://files.opentreeoflife.org/synthesis/opentree2/opentree2.tre.gz",
+    "version": "2"
   },
-  "otsynthv3": {
+  "opentree3": {
     "date": "2015-05-06T00Z",
     "doc_url": "https://tree.opentreeoflife.org/about/synthesis-release/v3",
-    "inherits_from": "otsynth",
+    "inherits_from": "opentree",
     "ott_version": "ott2.8draft5",
+    "schema": "newick",
     "stats": {
       "tip_count": 2339460,
       "total_otu_count": 41580,
       "tree_count": 478
     },
-    "url": "https://tree.opentreeoflife.org/synthesis/opentreev3/opentreev3_tree.tgz",
-    "version": "v3"
+    "syntax": "tar+gz",
+    "url": "https://files.opentreeoflife.org/synthesis/opentree3/opentree3.tre.gz",
+    "version": "3"
   },
-  "otsynthv4": {
+  "opentree4": {
     "date": "2015-10-24T00Z",
     "doc_url": "https://tree.opentreeoflife.org/about/synthesis-release/v4",
-    "inherits_from": "otsynth",
+    "inherits_from": "opentree",
     "ott_version": "ott2.9draft12",
+    "schema": "newick",
     "stats": {
       "tip_count": 2424255,
       "total_otu_count": 41029,
       "tree_count": 482
     },
-    "url": "https://tree.opentreeoflife.org/synthesis/opentreev4/opentreev4_tree.tgz",
-    "version": "v4"
+    "syntax": "tar+gz",
+    "url": "https://files.opentreeoflife.org/synthesis/opentree4/opentree4.tre.gz",
+    "version": "4"
   },
-  "otsynthv5.0": {
+  "opentree5.0": {
     "date": "2016-03-28T20Z",
     "doc_url": "https://tree.opentreeoflife.org/about/synthesis-release/v5.0",
-    "inherits_from": "otsynth",
+    "inherits_from": "opentree",
     "ott_version": "ott2.9draft12",
+    "package_convention": "propinquity pipeline v1",
     "stats": {
       "tip_count": 2424255,
       "total_otu_count": 41226,
       "tree_count": 511
     },
-    "url": "https://tree.opentreeoflife.org/synthesis/opentreev5.0/opentreev5.0_tree.tgz",
-    "version": "v5.0"
+    "version": "5.0"
   },
-  "otsynthv6.1": {
+  "opentree6.1": {
     "date": "2016-08-02T00Z",
     "doc_url": "https://tree.opentreeoflife.org/about/synthesis-release/v6.1",
-    "inherits_from": "otsynth",
+    "inherits_from": "opentree",
     "ott_version": "ott2.9draft12",
+    "package_convention": "propinquity pipeline v1",
+    "schema": "propinquity tree",
     "stats": {
       "tip_count": 2424255,
       "total_otu_count": 45397,
       "tree_count": 677
     },
-    "url": "https://tree.opentreeoflife.org/synthesis/opentreev6.1/opentreev6.1_tree.tgz",
-    "version": "v6.1"
+    "version": "6.1"
   },
-  "otsynthv7.0": {
+  "opentree7.0": {
     "date": "2016-09-11T00Z",
     "doc_url": "https://tree.opentreeoflife.org/about/synthesis-release/v7.0",
-    "inherits_from": "otsynth",
+    "inherits_from": "opentree",
     "ott_version": "ott2.10draft11",
+    "package_convention": "propinquity pipeline v1",
     "stats": {
       "tip_count": 2146904,
       "total_otu_count": 44608,
       "tree_count": 680
     },
-    "url": "https://tree.opentreeoflife.org/synthesis/opentreev7.0/opentreev7.0_tree.tgz",
-    "version": "v7.0"
+    "version": "7.0"
   },
-  "otsynthv8.0": {
+  "opentree8.0": {
     "date": "2016-11-29T00Z",
     "doc_url": "https://tree.opentreeoflife.org/about/synthesis-release/v8.0",
-    "inherits_from": "otsynth",
+    "inherits_from": "opentree",
     "ott_version": "ott2.10draft11",
+    "package_convention": "propinquity pipeline v1",
     "stats": {
       "tip_count": 2131472,
       "total_otu_count": 53012,
       "tree_count": 779
     },
-    "url": "https://tree.opentreeoflife.org/synthesis/opentreev8.0/opentreev8.0_tree.tgz",
-    "version": "v8.0"
+    "version": "8.0"
   },
-  "otsynthv9.1": {
+  "opentree9.1": {
     "date": "2017-03-22T11Z",
     "doc_url": "https://tree.opentreeoflife.org/about/synthesis-release/v9.1",
-    "inherits_from": "otsynth",
+    "inherits_from": "opentree",
     "ott_version": "ott3.0draft6",
+    "package_convention": "propinquity pipeline v1",
     "stats": {
       "tip_count": 2637204,
       "total_otu_count": 55226,
       "tree_count": 819
     },
-    "url": "https://tree.opentreeoflife.org/synthesis/opentreev9.1/opentreev9.1_tree.tgz",
-    "version": "v9.1"
+    "version": "9.1"
   }
 }
