@@ -1,0 +1,61 @@
+{
+  "ott2.10": {
+    "copy_status": "canonical",
+    "date": "2016-09-10",
+    "inherits_from": "ott",
+    "preceded_by": "ott2.9",
+    "stats": {
+      "taxon_count": 3453840,
+      "visible_taxon_count": 2338745
+    },
+    "url": "http://files.opentreeoflife.org/ott/ott2.10/ott2.10.tgz",
+    "version": "ott2.10"
+  },
+  "ott2.6": {
+    "copy_status": "canonical",
+    "date": "2014-04-11",
+    "inherits_from": "ott",
+    "stats": {
+      "taxon_count": 2762556,
+      "visible_taxon_count": 2189119
+    },
+    "url": "http://files.opentreeoflife.org/ott/ott2.6/ott2.6.tgz",
+    "version": "ott2.6"
+  },
+  "ott2.7": {
+    "copy_status": "canonical",
+    "date": "2014-05-08",
+    "inherits_from": "ott",
+    "preceded_by": "ott2.6",
+    "stats": {
+      "taxon_count": 2734175,
+      "visible_taxon_count": 2149208
+    },
+    "url": "http://files.opentreeoflife.org/ott/ott2.7/ott2.7.tgz",
+    "version": "ott2.7"
+  },
+  "ott2.8": {
+    "copy_status": "canonical",
+    "date": "2014-06-12",
+    "inherits_from": "ott",
+    "preceded_by": "ott2.7",
+    "stats": {
+      "taxon_count": 2918183,
+      "visible_taxon_count": 2278750
+    },
+    "url": "http://files.opentreeoflife.org/ott/ott2.8/ott2.8.tgz",
+    "version": "ott2.8"
+  },
+  "ott2.9": {
+    "copy_status": "canonical",
+    "date": "2015-10-12",
+    "inherits_from": "ott",
+    "preceded_by": "ott2.8",
+    "stats": {
+      "taxon_count": 3528349,
+      "visible_taxon_count": 2628944
+    },
+    "url": "http://files.opentreeoflife.org/ott/ott2.9/ott2.9.tgz",
+    "version": "ott2.9"
+  }
+}

@@ -43,7 +43,11 @@ def normalize_bibtex(fp):
 
 def normalize_json(fp, refs):
     with codecs.open(fp, 'rU', encoding='utf-8') as inp:
-        obj = json.load(inp)
+        try:
+            obj = json.load(inp)
+        except:
+            sys.stderr.write('Could not read "{}"'.format(fp))
+            raise
     for v in obj.values():
         ref_list = v.get('references', [])
         for r in ref_list:

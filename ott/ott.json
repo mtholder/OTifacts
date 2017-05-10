@@ -1,0 +1,10 @@
+{
+  "ott": {
+    "format": "tar+gzip",
+    "references": [
+      "ReesC2017"
+    ],
+    "resource_type": "open tree taxonomy",
+    "schema": "OTT"
+  }
+}

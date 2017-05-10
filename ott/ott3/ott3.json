@@ -1,0 +1,33 @@
+{
+  "ott3.0.6": {
+    "aliases": [
+      "ott3.0"
+    ],
+    "copy_status": "canonical",
+    "date": "2017-02-26",
+    "inherits_from": "ott",
+    "inputs": [
+      {
+        "SHA": "bcafdea7f2e9231274cae2df2beed7d732ca46c5",
+        "github_repository": "OpenTreeOfLife/amendments-1",
+        "type": "amendments"
+      },
+      "h2007",
+      "silva_115",
+      "if-20140407",
+      "S2010",
+      "worms-1",
+      "ncbi-20161109",
+      "gbif-20160729",
+      "irmng-20140131",
+      "ott-id-list-20161118"
+    ],
+    "preceded_by": "ott2.10",
+    "stats": {
+      "taxon_count": 3594550,
+      "visible_taxon_count": 3118727
+    },
+    "url": "http://files.opentreeoflife.org/ott/ott3.0/ott3.0.tgz",
+    "version": "ott3.0"
+  }
+}
