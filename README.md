@@ -27,6 +27,9 @@ The scripts directory here is intended to only relate to scripts that validate o
 
 ## Scripts
 
+    virtualenv env
+    source env/bin/activate
+    pip install bibtexparser
 
 ## References
 BibTex
