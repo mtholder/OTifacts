@@ -37,3 +37,11 @@ BibTex
 
 ## Schema
 
+
+  * `package_convention` of `propinquity pipeline v1` means: look for the 
+    tar+gz archive of the full output at:
+    https://files.opentreeoflife.org/synthesis/opentree{#}/opentree{#}_output.tgz
+    and the tree slice of that output at:
+    https://files.opentreeoflife.org/synthesis/opentree{#}/opentree{#}_tree.tgz
+    where `{#}` is a placeholder for the version string.
+    
