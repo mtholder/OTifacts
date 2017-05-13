@@ -3,6 +3,7 @@
 control.
 """
 from __future__ import print_function
+from peyotl import find_otifacts_json_filepaths, write_as_json
 import codecs
 import json
 import sys
@@ -53,29 +54,14 @@ def normalize_json(fp, refs):
         for r in ref_list:
             if r not in refs:
                 raise RuntimeError('Unknown reference key "{}"'.format(r))
-    with codecs.open(fp, 'w', encoding='utf-8') as outp:
-        json.dump(obj, outp,
-                  indent=2,
-                  separators=(',', ': '),
-                  sort_keys=True)
+    write_as_json(obj, fp, indent=2, separators=(',', ': '), sort_keys=True)
+
 
 if __name__ == '__main__':
     scripts_dir, script_name = os.path.split(sys.argv[0])
     top_dir = os.path.split(os.path.abspath(scripts_dir))[0]
     os.chdir(top_dir)
-    is_first = True
     bib_tex_fp = os.path.join(top_dir, 'references', 'OTifacts.bib')
     refs = normalize_bibtex(bib_tex_fp)
-    for dirpath, dirname, filenames in os.walk(top_dir):
-        if is_first:
-            is_first = False
-            for skip in ['.git', 'references', 'scripts', 'env']:
-                try:
-                    dirname.remove(skip)
-                except:
-                    pass
-        else:
-            for filename in filenames:
-                if filename.endswith('.json'):
-                    path = os.path.join(dirpath, filename)
-                    normalize_json(path, refs)
+    for path in find_otifacts_json_filepaths(top_dir):
+        normalize_json(path, refs)
