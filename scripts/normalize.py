@@ -30,7 +30,7 @@ def normalize_bibtex(fp):
     writer = BibTexWriter()
     with codecs.open(fp, 'w', encoding='utf-8') as out:
         out.write(writer.write(sdb))
-    #finally we obliterate fields related to when we wrote this record
+    # finally we obliterate fields related to when we wrote this record
     with codecs.open(fp, 'rU', encoding='utf-8') as inp:
         lines = inp.readlines()
     with codecs.open(fp, 'w', encoding='utf-8') as out:
@@ -57,11 +57,14 @@ def normalize_json(fp, refs):
     write_as_json(obj, fp, indent=2, separators=(',', ': '), sort_keys=True)
 
 
-if __name__ == '__main__':
-    scripts_dir, script_name = os.path.split(sys.argv[0])
-    top_dir = os.path.split(os.path.abspath(scripts_dir))[0]
+def main(top_dir):
     os.chdir(top_dir)
     bib_tex_fp = os.path.join(top_dir, 'references', 'OTifacts.bib')
-    refs = normalize_bibtex(bib_tex_fp)
+    references_dict = normalize_bibtex(bib_tex_fp)
     for path in find_otifacts_json_filepaths(top_dir):
-        normalize_json(path, refs)
+        normalize_json(path, references_dict)
+
+if __name__ == '__main__':
+    scripts_dir, script_name = os.path.split(sys.argv[0])
+    top_directory = os.path.split(os.path.abspath(scripts_dir))[0]
+    main(top_directory)
