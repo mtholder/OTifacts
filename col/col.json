@@ -1,0 +1,18 @@
+{
+  "col": {
+    "latest_download_url": "http://www.catalogueoflife.org/DCA_Export/archive.php",
+    "references": [
+      "CoLTaxonomy"
+    ],
+    "resource_type": "external taxonomy",
+    "source": "Catalogue of Life"
+  },
+  "col-20160729": {
+    "copy_status": "snapshot",
+    "date": "2017-03-22",
+    "format": "zip",
+    "inherits_from": "col",
+    "schema": "http://rs.tdwg.org/dwc/",
+    "url": "http://www.catalogueoflife.org/DCA_Export/zip-fixed/2017-03-22-archive-complete.zip"
+  }
+}
