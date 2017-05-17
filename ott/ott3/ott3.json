@@ -7,20 +7,50 @@
     "date": "2017-02-26",
     "inherits_from": "ott2.10",
     "inputs": [
-      {
-        "SHA": "bcafdea7f2e9231274cae2df2beed7d732ca46c5",
-        "github_repository": "OpenTreeOfLife/amendments-1",
-        "type": "amendments"
-      },
-      "h2007",
-      "silva_115",
-      "if-20140407",
-      "S2010",
-      "worms-1",
-      "ncbi-20161109",
-      "gbif-20160729",
-      "irmng-20140131",
-      "ott-id-list-20161118"
+      [
+        "addition",
+        {
+          "SHA": "bcafdea7f2e9231274cae2df2beed7d732ca46c5",
+          "github_repository": "OpenTreeOfLife/amendments-1",
+          "type": "amendments"
+        }
+      ],
+      [
+        "h2007",
+        "h2007"
+      ],
+      [
+        "silva",
+        "silva_115"
+      ],
+      [
+        "if",
+        "if-20140407"
+      ],
+      [
+        "study713",
+        "S2010"
+      ],
+      [
+        "worms",
+        "worms-1"
+      ],
+      [
+        "ncbi",
+        "ncbi-20161109"
+      ],
+      [
+        "gbif",
+        "gbif-20160729"
+      ],
+      [
+        "irmng",
+        "irmng-20140131"
+      ],
+      [
+        null,
+        "ott-id-list-20161118"
+      ]
     ],
     "preceded_by": "ott2.10",
     "stats": {
