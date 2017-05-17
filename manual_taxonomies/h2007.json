@@ -11,5 +11,14 @@
     "schema": "newick",
     "source": "published taxonomy",
     "url": "https://raw.githubusercontent.com/OpenTreeOfLife/reference-taxonomy/master/feed/h2007/tree.tre"
+  },
+  "h2007.v2": {
+    "copy_status": "transformed",
+    "date": "2007-05",
+    "format": "tar+gzip",
+    "schema": "OTT",
+    "source": "published taxonomy",
+    "url": "http://files.opentreeoflife.org/h2007.v2.tar.gz",
+    "inherits_from": "h2007"
   }
 }
