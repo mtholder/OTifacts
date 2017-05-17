@@ -9,8 +9,8 @@
   "h2007.v1": {
     "copy_status": "transformed",
     "format": "text",
-    "local_filename": "taxonomy.tre",
     "inherits_from": "h2007",
+    "local_filename": "taxonomy.tre",
     "schema": "newick",
     "source": "published taxonomy",
     "url": "https://raw.githubusercontent.com/OpenTreeOfLife/reference-taxonomy/master/feed/h2007/tree.tre"
@@ -18,9 +18,9 @@
   "h2007.v2": {
     "copy_status": "transformed",
     "format": "tar+gzip",
+    "inherits_from": "h2007.v1",
     "schema": "OTT",
     "source": "published taxonomy",
-    "url": "http://files.opentreeoflife.org/h2007.v2.tar.gz",
-    "inherits_from": "h2007.v1"
+    "url": "http://files.opentreeoflife.org/h2007.v2.tar.gz"
   }
 }
