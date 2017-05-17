@@ -6,7 +6,7 @@
     "copy_status": "canonical",
     "date": "2016-09-10",
     "doc_url": "http://files.opentreeoflife.org/ott/ott2.10/",
-    "inherits_from": "ott",
+    "inherits_from": "ott2.9",
     "preceded_by": "ott2.9",
     "stats": {
       "taxon_count": 3453840,
@@ -31,7 +31,7 @@
     "copy_status": "canonical",
     "date": "2014-05-08",
     "doc_url": "http://files.opentreeoflife.org/ott/ott2.7/",
-    "inherits_from": "ott",
+    "inherits_from": "ott2.6",
     "preceded_by": "ott2.6",
     "stats": {
       "taxon_count": 2734175,
@@ -44,7 +44,7 @@
     "copy_status": "canonical",
     "date": "2014-06-12",
     "doc_url": "http://files.opentreeoflife.org/ott/ott2.8/",
-    "inherits_from": "ott",
+    "inherits_from": "ott2.7",
     "preceded_by": "ott2.7",
     "stats": {
       "taxon_count": 2918183,
@@ -60,7 +60,7 @@
     "copy_status": "canonical",
     "date": "2015-10-12",
     "doc_url": "http://files.opentreeoflife.org/ott/ott2.9/",
-    "inherits_from": "ott",
+    "inherits_from": "ott2.8",
     "preceded_by": "ott2.8",
     "stats": {
       "taxon_count": 3528349,
