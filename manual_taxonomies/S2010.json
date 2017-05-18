@@ -1,5 +1,8 @@
 {
   "S2010": {
+    "aliases": [
+      "study713"
+    ],
     "copy_status": "transformed",
     "date": "2010",
     "format": "text",
