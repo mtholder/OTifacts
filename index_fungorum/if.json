@@ -11,7 +11,7 @@
     "date": "2014-04-07",
     "format": "tar+gzip",
     "inherits_from": "if",
-    "schema": "OTT",
+    "schema": "tab-separated OTT",
     "url": "http://files.opentreeoflife.org/fung/fung-9/fung-9-ot.tgz"
   }
 }
