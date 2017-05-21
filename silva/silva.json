@@ -33,6 +33,7 @@
     "format": "gzip",
     "id_list": "silva_115_pref",
     "inherits_from": "silva_115",
+    "local_filename": "taxmap_slv_ssu_ref.txt",
     "schema": "silva taxmap",
     "url": "https://www.arb-silva.de/fileadmin/silva_databases/release_128/Exports/taxonomy/taxmap_slv_ssu_ref_128.txt.gz",
     "version": "128"
