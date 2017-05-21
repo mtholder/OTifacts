@@ -23,7 +23,7 @@
     "format": "gzip",
     "inherits_from": "silva_preferred_ids",
     "schema": "ID list",
-    "url": "https://files.opentreeoflife.org/silva/silva_preferred_ids_115.txt.gz",
+    "url": "http://files.opentreeoflife.org/silva/silva_preferred_ids_115.txt.gz",
     "version": "115"
   },
   "silva_preferred_ids": {
