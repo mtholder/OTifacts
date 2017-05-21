@@ -26,6 +26,16 @@
     "url": "http://files.opentreeoflife.org/silva/silva_preferred_ids_115.txt.gz",
     "version": "115"
   },
+  "silva_128": {
+    "copy_status": "canonical",
+    "date": "2016-09-28",
+    "format": "gzip",
+    "id_list": "silva_115_pref",
+    "inherits_from": "silva_115",
+    "schema": "silva taxmap",
+    "url": "https://www.arb-silva.de/fileadmin/silva_databases/release_128/Exports/taxonomy/taxmap_slv_ssu_ref_128.txt.gz",
+    "version": "128"
+  },
   "silva_preferred_ids": {
     "license_url": "https://www.arb-silva.de/silva-license-information",
     "references": [
