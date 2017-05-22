@@ -23,6 +23,19 @@ We can rely on GitHub APIs or pushes from privileged users/apps.
 The scripts directory here is intended to only relate to scripts that validate or reformat
     data stored in this repository.
 
+## License
+Note that the [License.txt](./License.txt) and [CONTRIBUTORS.txt](./CONTRIBUTORS.txt)
+only refer to the content of the repo - not the linked data. Check the linked cites for
+further information about Licensing and authorship, if you are going to download data
+from those sites.
+
+The `references` field has keys that refer to the BibTeX keys of entries in the 
+[references/OTifacts.bib](./references/OTifacts.bib) file to assist in citations.
+
+The `license_url` and `license_of_tou_info` fields are intend to store a link (former)
+or text (latter) pertaining to the license info URLs or terms of use statements.
+Certainly check those links, if you are going to download information from those cites,
+but do due diligence regardless as the info in these files may not be up-to-date.
 
 
 ## Scripts

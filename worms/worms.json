@@ -1,5 +1,7 @@
 {
   "worms": {
+    "license_or_tou_info": "Unless otherwise stated, these web pages and associated information are free to use on condition that they are cited (CC-BY). A recommended citation style is provided on each page. We do not permit the re-distribution of the entire database unless by prior written agreement. \n \nIn exceptional cases copies of the database may be provided (using this form), after assessment by the WoRMS Steering Committee representatives and the Data Management Team. Data downloads consist of the taxonomic data only and do not include additional data (distributions, traits, etc.). We strongly encourage the use of the webservices provided instead of data requests since only the former will guarantee continuous updates. \n \nYou can also cite the individual global or regional species lists as appropriate. Their citations are shown on their web pages. \n \nThe database as a whole is to be cited as follows:  \n \nWoRMS Editorial Board (2017). World Register of Marine Species. Available from http://www.marinespecies.org at VLIZ. Accessed 2017-05-22. doi:10.14284/170 ",
+    "license_url": "http://www.marinespecies.org/about.php#",
     "references": [
       "WoRMSTaxonomy"
     ],
