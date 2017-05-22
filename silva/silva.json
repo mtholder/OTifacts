@@ -30,9 +30,31 @@
   "silva_128": {
     "copy_status": "canonical",
     "date": "2016-10-04",
+    "depends_on": [
+      "silva_ncbi_128",
+      "silva_115_pref"
+    ],
     "format": "gzip",
-    "id_list": "silva_115_pref",
     "inherits_from": "silva_115",
+    "local_filename": "taxmap_slv_ssu_ref.txt",
+    "schema": "silva taxmap",
+    "url": "https://www.arb-silva.de/fileadmin/silva_databases/release_128/Exports/taxonomy/taxmap_slv_ssu_ref_128.txt.gz",
+    "version": "128"
+  },
+  "silva_ncbi": {
+    "license_url": "https://www.arb-silva.de/silva-license-information",
+    "notes": "Mapping of accession to SILVA taxon_id and NCBI ancestry path strings.",
+    "references": [
+      "QuastEtAl2013"
+    ],
+    "resource_type": "id list",
+    "source": "SILVA"
+  },
+  "silva_ncbi_128": {
+    "copy_status": "canonical",
+    "date": "2016-10-04",
+    "format": "gzip",
+    "inherits_from": "silva_ncbi",
     "local_filename": "taxmap_ncbi_ssu_ref.txt",
     "schema": "silva taxmap",
     "url": "https://www.arb-silva.de/fileadmin/silva_databases/release_128/Exports/taxonomy/taxmap_ncbi_ssu_ref_128.txt.gz",
@@ -40,6 +62,7 @@
   },
   "silva_preferred_ids": {
     "license_url": "https://www.arb-silva.de/silva-license-information",
+    "notes": "IDs from SILVA linked by previous version of OTT.",
     "references": [
       "QuastEtAl2013"
     ],
