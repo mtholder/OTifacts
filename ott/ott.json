@@ -7,9 +7,12 @@
     "resource_type": "open tree taxonomy",
     "schema": "OTT"
   },
+  "ott-id-list": {
+    "resource_type": "open tree taxonomy idlist"
+  },
   "ott-id-list-20161118": {
     "format": "gzip",
-    "resource_type": "open tree taxonomy idlist",
+    "inherits_from": "ott-id-list",
     "schema": "OTT ID CSV",
     "url": "http://files.opentreeoflife.org/idlist/idlist-20161118/by_qid.csv.gz"
   }
