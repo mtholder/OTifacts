@@ -32,7 +32,7 @@ from those sites.
 The `references` field has keys that refer to the BibTeX keys of entries in the 
 [references/OTifacts.bib](./references/OTifacts.bib) file to assist in citations.
 
-The `license_url` and `license_of_tou_info` fields are intend to store a link (former)
+The `license_url` and `license_of_tou_info` fields are intended to store a link (former)
 or text (latter) pertaining to the license info URLs or terms of use statements.
 Certainly check those links, if you are going to download information from those cites,
 but do due diligence regardless as the info in these files may not be up-to-date.
