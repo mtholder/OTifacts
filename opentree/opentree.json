@@ -131,5 +131,18 @@
       "tree_count": 819
     },
     "version": "9.1"
+  },
+  "opentree10.4": {
+    "date": "2018-09-24T11Z",
+    "doc_url": "https://tree.opentreeoflife.org/about/synthesis-release/v10.4",
+    "inherits_from": "opentree",
+    "ott_version": "ott3.0draft6",
+    "package_convention": "propinquity pipeline v1",
+    "stats": {
+      "tip_count": 2640941,
+      "total_otu_count": 65662,
+      "tree_count": 987
+    },
+    "version": "10.4"
   }
 }
