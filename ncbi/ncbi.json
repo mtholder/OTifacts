@@ -14,5 +14,13 @@
     "inherits_from": "ncbi",
     "schema": "NCBI taxonomy",
     "url": "http://files.opentreeoflife.org/ncbi/ncbi-20161109/ncbi-20161109.tgz"
+  },
+  "ncbi-20181127": {
+    "copy_status": "snapshot",
+    "date": "2018-11-27",
+    "format": "tar+gzip",
+    "inherits_from": "ncbi",
+    "schema": "NCBI taxonomy",
+    "url": "http://files.opentreeoflife.org/ncbi/ncbi-20181127/ncbi-20181127.tgz"
   }
 }
