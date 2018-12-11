@@ -15,5 +15,17 @@
     "inherits_from": "ott-id-list",
     "schema": "OTT ID CSV",
     "url": "http://files.opentreeoflife.org/idlist/idlist-20161118/by_qid.csv.gz"
+  },
+  "ott-id-list-2.10": {
+    "format": "gzip",
+    "inherits_from": "ott-id-list",
+    "schema": "OTT ID CSV",
+    "url": "http://files.opentreeoflife.org/idlist/idlist-2.10/idlist-2.10.tgz"
+  },
+  "ott-id-list-3.0": {
+    "format": "gzip",
+    "inherits_from": "ott-id-list",
+    "schema": "OTT ID CSV",
+    "url": "http://files.opentreeoflife.org/idlist/idlist-2.10/idlist-3.0.tgz"
   }
 }
