@@ -9,7 +9,7 @@
     "source": "SILVA"
   },
   "silva_115": {
-    "copy_status": "canonical",
+    "copy_status": "snapshot",
     "date": "2013-09-16",
     "depends_on": [
       "silva_115_pref"
@@ -50,8 +50,18 @@
     "references": [
       "QuastEtAl2013"
     ],
-    "resource_type": "id list",
+    "resource_type": "id to ncbi mapping",
     "source": "SILVA"
+  },
+  "silva_ncbi_115": {
+    "copy_status": "snapshot",
+    "date": "2013-09-16",
+    "format": "gzip",
+    "inherits_from": "silva_ncbi",
+    "local_filename": "silva_no_sequences.fasta",
+    "schema": "fasta silva taxmap",
+    "url": "http://files.opentreeoflife.org/silva/silva-115/silva-115.tgz",
+    "version": "115"
   },
   "silva_ncbi_128": {
     "copy_status": "canonical",
