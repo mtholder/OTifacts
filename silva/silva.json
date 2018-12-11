@@ -57,7 +57,7 @@
   "silva_ncbi_115": {
     "copy_status": "snapshot",
     "date": "2013-09-16",
-    "format": "gzip",
+    "format": "tar+gzip",
     "inherits_from": "silva_ncbi",
     "local_filename": "silva_no_sequences.fasta",
     "schema": "fasta silva taxmap",
