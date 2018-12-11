@@ -17,7 +17,7 @@
     "format": "tar+gzip",
     "inherits_from": "silva",
     "schema": "silva fasta",
-    "url": "files.opentreeoflife.org/silva/silva-115/silva-115.fasta.tgz",
+    "url": "http://files.opentreeoflife.org/silva/silva-115/silva-115.fasta.tgz",
     "version": "115"
   },
   "silva_115_pref": {
