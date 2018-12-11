@@ -12,7 +12,8 @@
     "copy_status": "snapshot",
     "date": "2013-09-16",
     "depends_on": [
-      "silva_115_pref"
+      "silva_115_pref",
+      "silva_ncbi_115"
     ],
     "format": "tar+gzip",
     "inherits_from": "silva",
@@ -67,7 +68,7 @@
     "copy_status": "canonical",
     "date": "2016-10-04",
     "format": "gzip",
-    "inherits_from": "silva_ncbi",
+    "inherits_from": "silva_ncbi_115",
     "local_filename": "taxmap_ncbi_ssu_ref.txt",
     "schema": "silva taxmap",
     "url": "https://www.arb-silva.de/fileadmin/silva_databases/release_128/Exports/taxonomy/taxmap_ncbi_ssu_ref_128.txt.gz",
