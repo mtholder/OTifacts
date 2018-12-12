@@ -9,17 +9,17 @@
     "source": "SILVA"
   },
   "silva_115": {
-    "copy_status": "snapshot",
+    "copy_status": "transformed",
     "date": "2013-09-16",
-    "depends_on": [
-      "silva_115_pref",
-      "silva_ncbi_115"
-    ],
     "format": "tar+gzip",
-    "inherits_from": "silva",
-    "local_filename": "SSURef_NR99_115_tax_silva.fasta",
-    "schema": "silva fasta",
-    "url": "http://files.opentreeoflife.org/silva/silva-115/silva-115.fasta.tgz",
+    "local_filename": "taxonomy.tsv",
+    "references": [
+      "QuastEtAl2013"
+    ],
+    "resource_type": "external taxonomy",
+    "schema": "headerless OTT",
+    "source": "published taxonomy",
+    "url": "http://files.opentreeoflife.org/silva/silva_115_ott.tar.gz",
     "version": "115"
   },
   "silva_115_pref": {
