@@ -17,6 +17,7 @@
     ],
     "format": "tar+gzip",
     "inherits_from": "silva",
+    "local_filename": "SSURef_NR99_115_tax_silva.fasta",
     "schema": "silva fasta",
     "url": "http://files.opentreeoflife.org/silva/silva-115/silva-115.fasta.tgz",
     "version": "115"
