@@ -16,5 +16,36 @@
     "inherits_from": "irmng",
     "schema": "IRMNG DwC",
     "url": "http://purl.org/opentree/ott/ott2.8/inputs/IRMNG_DWC-2014-01-30.zip"
+  },
+  "irmng_ot": {
+    "copy_status": "transformed",
+    "local_filename": "taxonomy.tsv",
+    "references": [
+      "IRMNGTaxonomy"
+    ],
+    "resource_type": "external taxonomy",
+    "schema": "headerless OTT",
+    "source": "published taxonomy"
+  },
+  "irmng_ot-20141020": {
+    "date": "2014-01-20",
+    "format": "tar+gzip",
+    "url": "http://files.opentreeoflife.org/irmng-ot/irmng-ot-20141020/irmng-ot-20141020.tgz",
+    "version": "20141020",
+    "inherits_from": "irmng_ot"
+  },
+  "irmng_ot-20160630": {
+    "date": "2016-06-30",
+    "format": "tar+gzip",
+    "url": "http://files.opentreeoflife.org/irmng-ot/irmng-ot-20160630/irmng-ot-20160630.tgz",
+    "version": "20160630",
+    "inherits_from": "irmng_ot-20141020"
+  },
+  "irmng_ot-20161108": {
+    "date": "2016-11-08",
+    "format": "tar+gzip",
+    "url": "http://files.opentreeoflife.org/irmng-ot/irmng-ot-20161108/irmng-ot-20161108.tgz",
+    "version": "20161108",
+    "inherits_from": "irmng_ot-20160630"
   }
 }
