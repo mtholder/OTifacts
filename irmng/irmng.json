@@ -1,5 +1,5 @@
 {
-  "irmng": {
+  "irmng_raw": {
     "license_or_tou_info": "REUSE OF IRMNG CONTENT: IRMNG (the Interim Register of Marine and Nonmarine Genera) is assembled, with permission, from a range of third party data sources, certain of which permit data reuse only under specific conditions. In particular, for data originating from the Catalogue of Life (CoL), please refer to the relevant terms and conditions for reuse of CoL data as available at http://www.catalogueoflife.org/content/terms-use, and for data originating from the World Register of Marine Species (WoRMS) refer the paragraph \"Terms of Use and Citation\" at http://www.marinespecies.org/about.php. The compilers of IRMNG accept no liability for any reuse of IRMNG content by downstream users which may be construed by the original data providers to violate their publicly available conditions of use.",
     "license_url": "http://www.marinespecies.org/about.php",
     "maintainer": "Tony Rees",
@@ -13,7 +13,7 @@
     "copy_status": "snapshot",
     "date": "2014-01-31",
     "format": "zip",
-    "inherits_from": "irmng",
+    "inherits_from": "irmng_raw",
     "schema": "IRMNG DwC",
     "url": "http://purl.org/opentree/ott/ott2.8/inputs/IRMNG_DWC-2014-01-30.zip"
   },
