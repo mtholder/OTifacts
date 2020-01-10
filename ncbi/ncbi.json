@@ -30,13 +30,5 @@
     "inherits_from": "ncbi",
     "schema": "NCBI taxonomy",
     "url": "https://files.opentreeoflife.org/ncbi/ncbi-20190916/ncbi-20190916.tgz"
-  },
-  "ncbi-20191015": {
-    "copy_status": "snapshot",
-    "date": "2019-10-15",
-    "format": "tar+gzip",
-    "inherits_from": "ncbi",
-    "schema": "NCBI taxonomy",
-    "url": "https://files.opentreeoflife.org/ncbi/ncbi-20191015/ncbi-20191015.tgz"
   }
 }
