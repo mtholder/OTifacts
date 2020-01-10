@@ -144,5 +144,31 @@
       "tree_count": 987
     },
     "version": "10.4"
+  },
+  "opentree11.4": {
+    "date": "2019-10-09T11Z",
+    "doc_url": "https://tree.opentreeoflife.org/about/synthesis-release/v11.4",
+    "inherits_from": "opentree",
+    "ott_version": "ott3.1",
+    "package_convention": "propinquity pipeline v1",
+    "stats": {
+      "tip_count": 2852504,
+      "total_otu_count": 87682,
+      "tree_count":   1212
+    },
+    "version": "11.4"
+  },
+  "opentree12.3": {
+    "date": "2019-12-23T11Z",
+    "doc_url": "https://tree.opentreeoflife.org/about/synthesis-release/v12.3",
+    "inherits_from": "opentree",
+    "ott_version": "ott3.2",
+    "package_convention": "propinquity pipeline v1",
+    "stats": {
+      "tip_count": 2391916,
+      "total_otu_count": 87740,
+      "tree_count":   1216
+    },
+    "version": "12.3"
   }
 }

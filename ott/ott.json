@@ -29,5 +29,12 @@
     "preceded_by": "ott-id-list-2.10",
     "schema": "OTT ID CSV",
     "url": "http://files.opentreeoflife.org/idlist/idlist-3.0/idlist-3.0.tgz"
+  },
+  "ott-id-list-3.1": {
+    "format": "tar+gzip",
+    "inherits_from": "ott-id-list",
+    "preceded_by": "ott-id-list-3.0",
+    "schema": "OTT ID CSV",
+    "url": "http://files.opentreeoflife.org/idlist/idlist-3.1/idlist-3.1.tgz"
   }
 }
