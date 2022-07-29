@@ -31,9 +31,9 @@
     "schema": "NCBI taxonomy",
     "url": "https://files.opentreeoflife.org/ncbi/ncbi-20190916/ncbi-20190916.tgz"
   },
-  "ncbi-20210701": {
+  "ncbi-20220729": {
     "copy_status": "snapshot",
-    "date": "2021-07-01",
+    "date": "2022-07-29",
     "format": "tar+gzip",
     "inherits_from": "ncbi",
     "schema": "NCBI taxonomy",
