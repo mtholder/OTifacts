@@ -262,5 +262,78 @@
     },
     "url": "https://files.opentreeoflife.org/ott/ott3.3/ott3.3.tgz",
     "version": "ott3.3"
+  },
+  "ott3.4.1": {
+    "aliases": [
+      "ott3.4"
+    ],
+    "copy_status": "canonical",
+    "date": "2022-10-31",
+    "inherits_from": "ott3.3.1",
+    "inputs": [
+      [
+        "edOTT",
+        {
+          "SHA": "5bff4bc32a91a7c6e0541d94b71a0a9ae2fdda02",
+          "github_repository": "OpenTreeOfLife/edOTTs",
+          "type": "edOTTs"
+        }
+      ],
+      [
+        "addition",
+        {
+          "SHA": "5bff4bc32a91a7c6e0541d94b71a0a9ae2fdda02",
+          "github_repository": "OpenTreeOfLife/amendments-1",
+          "type": "amendments"
+        }
+      ],
+      [
+        "h2007",
+        "h2007"
+      ],
+      [
+        "silva",
+        "silva_115"
+      ],
+      [
+        "if",
+        "if-20140407"
+      ],
+      [
+        "study713",
+        "S2010"
+      ],
+      [
+        "worms",
+        "worms-1"
+      ],
+      [
+        "ncbi",
+        "ncbi-20160916"
+      ],
+      [
+        "gbif",
+        "gbif-20160916"
+      ],
+      [
+        "irmng",
+        "irmng-20140131"
+      ],
+      [
+        null,
+        "ott-id-list-3.1"
+      ]
+    ],
+    "preceded_by": "ott3.3.1",
+    "source" : {
+      "github_repository": "OpenTreeOfLife/reference-taxonomy",
+      "SHA": "618bab0ca398d758097f61b71ecefbe9cb09aa49"
+    },
+    "stats": {
+      "taxon_count": 4528224,
+      "visible_taxon_count": 3943215
+    },
+    "url": "http://files.opentreeoflife.org/ott/ott3.4/ott3.4.tgz",
+    "version": "ott3.4"
   }
 }
