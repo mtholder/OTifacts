@@ -1,0 +1,19 @@
+{
+  "wikispecies": {
+    "license_or_tou_info": "CC BY-SA 4.0.",
+    "license_url": "https://en.wikipedia.org/wiki/Wikispecies#Policies",
+    "references": [
+      "Wikispecies"
+    ],
+    "resource_type": "external taxonomy",
+    "source": "Wikispecies"
+  },
+  "wikispecies-1": {
+    "copy_status": "snapshot",
+    "date": "2025-06-20",
+    "format": "xml+bz2",
+    "inherits_from": "wikispecies",
+    "schema": "wikispecies",
+    "url": "https://dumps.wikimedia.org/specieswiki/20250620/specieswiki-20250620-pages-meta-current.xml.bz2"
+  }
+}
