@@ -37,6 +37,6 @@
     "format": "tar+gzip",
     "inherits_from": "ncbi",
     "schema": "NCBI taxonomy",
-    "url": "https://ftp.ncbi.nih.gov/pub/taxonomy/taxdump.tar.gz"
+    "url": "https://files.opentreeoflife.org/ncbi/ncbi-20250627/ncbi-20250627.tgz"
   }
 }

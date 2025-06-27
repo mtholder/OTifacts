@@ -22,5 +22,13 @@
     "inherits_from": "gbif",
     "schema": "http://rs.tdwg.org/dwc/",
     "url": "https://files.opentreeoflife.org/gbif/gbif-20190916/gbif-20190916.zip"
+  },
+  "gbif-20230828": {
+    "copy_status": "snapshot",
+    "date": "2023-08-28",
+    "format": "zip",
+    "inherits_from": "gbif",
+    "schema": "http://rs.tdwg.org/dwc/",
+    "url": "https://files.opentreeoflife.org/gbif/gbif-20230828/gbif-20230828.zip"
   }
 }
