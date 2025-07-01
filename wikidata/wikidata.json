@@ -1,0 +1,19 @@
+{
+  "wikidata": {
+    "license_or_tou_info": "CC0 1.0 Universal",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "references": [
+      "Wikidata"
+    ],
+    "resource_type": "external taxonomy",
+    "source": "Wikidata"
+  },
+  "wikidata-1": {
+    "copy_status": "snapshot",
+    "date": "2025-06-25",
+    "format": "xml+bz2",
+    "inherits_from": "wikidata",
+    "schema": "taxalotlwikidata",
+    "url": "https://files.opentreeoflife.org/wikidata/wikidata-taxonomy-2025-jun-25.tar.bz2"
+  }
+}
