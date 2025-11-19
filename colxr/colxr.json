@@ -1,8 +1,8 @@
 {
   "colxr": {
     "latest_download_url": "https://api.checklistbank.org/dataset/312578/export.zip?extended=true&format=ColDP",
-    "license_or_tou_info": "If you wish to use the Catalogue of Life content on a public portal or webpage you are required to notify the Species 2000 Secretariat, and to assist with a check that the correct credits are given. Credit must be given at the following three levels on all occasions that records are shown. The three levels credit the complete work, the contributing database of the record, and the expert who provides taxonomic scrutiny of the individual record. For example, these might be as follows: \n \nThe full product name (e.g. Species 2000 & ITIS Catalogue of Life: 2013 Annual Checklist). \nThe full or short name or logo of the contributing database (e.g. Fulgoromorpha Lists On the WEB or ITIS). \nThe names of author(s)/editor(s) of the contributing database, such as Hopkins H., Maehr M.D., Haas F. and Deem L.S. (from DermapteraSF) or Hoeksema B. (from WoRMS Octocorallia). \nCommercial use of this compilation or any of the species datasets contained within, such as replication of the DVD-ROM for sale, or dissemination on the Internet, requires written permission from Species 2000 and ITIS. \n \nGuidance on how to incorporate Catalogue of Life data into your own system can be obtained from the Species 2000 Secretariat. \n \nFor further information on how to cite the Catalogue of Life please see our How to cite this work page. \n \n",
-    "license_url": "http://www.catalogueoflife.org/content/terms-use",
+    "license_or_tou_info": "Creative Commons Attribution 4.0 International",
+    "license_url": "https://www.catalogueoflife.org/data/metadata",
     "references": [
       "CoLXRTaxonomy"
     ],
