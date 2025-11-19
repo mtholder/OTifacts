@@ -15,6 +15,6 @@
     "format": "zip",
     "inherits_from": "colxr",
     "schema": "http://rs.tdwg.org/dwc/",
-    "url": "https://api.checklistbank.org/dataset/312578/export.zip?extended=true&format=ColDP"
+    "url": "https://files.opentreeoflife.org/colxr/ac4054f8-c8a9-4a6e-ae39-8bff6c705318.zip"
   }
 }
