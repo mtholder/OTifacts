@@ -17,9 +17,9 @@
     "schema": "http://rs.tdwg.org/dwc/",
     "url": "https://files.opentreeoflife.org/colxr/ac4054f8-c8a9-4a6e-ae39-8bff6c705318.zip"
   },
-  "colxr-20260717": {
+  "colxr-20260826": {
     "copy_status": "snapshot",
-    "date": "2026-07-17",
+    "date": "2026-08-26",
     "format": "zip",
     "inherits_from": "colxr",
     "schema": "http://rs.tdwg.org/dwc/",
