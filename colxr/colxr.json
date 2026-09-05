@@ -9,20 +9,12 @@
     "resource_type": "external taxonomy",
     "source": "Catalogue of Life"
   },
-  "colxr-20251010": {
-    "copy_status": "snapshot",
-    "date": "2025-10-10",
-    "format": "zip",
-    "inherits_from": "colxr",
-    "schema": "http://rs.tdwg.org/dwc/",
-    "url": "https://files.opentreeoflife.org/colxr/ac4054f8-c8a9-4a6e-ae39-8bff6c705318.zip"
-  },
   "colxr-20260826": {
     "copy_status": "snapshot",
     "date": "2026-08-26",
     "format": "zip",
     "inherits_from": "colxr",
-    "schema": "http://rs.tdwg.org/dwc/",
+    "schema": "https://github.com/CatalogueOfLife/coldp/releases/tag/v1.2.0",
     "url": "https://api.checklistbank.org/dataset/316165/export.zip?extended=true&format=ColDP"
   }
 }
